@@ -21,5 +21,14 @@ class ViewController: UIViewController {
     }
 
 
+    //function that listens to the Motion Shake
+    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?)
+    {
+        if event?.subtype == UIEventSubtype.motionShake
+        {
+            print("SHAKE")
+        }
+    }
+    
 }
 
