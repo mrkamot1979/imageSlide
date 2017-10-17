@@ -34,6 +34,10 @@ class ViewController: UIViewController {
             myImageView.image = UIImage(named: picArray[i])
             i += 1
             
+            if i == 3 {
+               i = 0
+            }
+            
         }
     }
     
