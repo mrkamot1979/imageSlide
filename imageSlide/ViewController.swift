@@ -31,7 +31,9 @@ class ViewController: UIViewController {
     {
         if event?.subtype == UIEventSubtype.motionShake
         {
-            print("SHAKE")
+            myImageView.image = UIImage(named: picArray[i])
+            i += 1
+            
         }
     }
     
