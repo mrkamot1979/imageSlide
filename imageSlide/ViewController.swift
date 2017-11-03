@@ -13,6 +13,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var myImageView: UIImageView!
     
+    //picArray holds the image names.
     let picArray:[String] = ["image1.jpg", "image2.jpg", "image3.jpg"]
     var i:Int = 0 //variable that holds array placement
     
